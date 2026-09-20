@@ -23,25 +23,31 @@ int main() {
     printf("Welcome to the Simple Invoice Calculator.\n");
 
     int productCode_1;
-    int productCode_2;
     int quantityProduct_1;
-    int quantityProduct_2;
     double priceProduct_1;
+
+    int productCode_2;
+    int quantityProduct_2;
     double priceProduct_2;
+
     double valueToPay;
 
     printf("\n");
     printf("Product Code 1: ");
     scanf("%d", &productCode_1);
+
     printf("Quantity for Product 1: ");
     scanf("%d", &quantityProduct_1);
+
     printf("Price per unit of Product 1: ");
     scanf("%lf", &priceProduct_1);
 
     printf("\nProduct Code 2: ");
     scanf("%d", &productCode_2);
+
     printf("Quantity for Product 2: ");
     scanf("%d", &quantityProduct_2);
+    
     printf("Price per unit of Product 2: ");
     scanf("%lf", &priceProduct_2);
 
